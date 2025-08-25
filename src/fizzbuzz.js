@@ -1,14 +1,12 @@
 export function fizzbuzz(){
 // Crear un numero del 1 al 100 en JavaScript
-//"var" se reemplazo por "let" por temas de modernindad
 for (let n1 = 1; n1 <= 100; n1++){
-    console.log (n1)
-// A partir de aqui, se utiliza "if" y "%" (O tambien conocido como Modulación) (Revisar como elimintar multriplos repetidos)
+// A partir de aqui, se utiliza "if" y "%" o tambien conocido como "Modulación"
     if(n1 % 3 === 0 && n1 % 5 === 0) {
-        console.log (n1 + " FizzBuzz");
+        console.log (" FizzBuzz");
     } else if (n1 % 5 === 0) {
-        console.log (n1 + " Fizz");
+        console.log (" Fizz");
     } else if (n1 % 3 === 0) {
-        console.log (n1 + " Buzz");
-    }
+        console.log (" Buzz");
+    } else {console.log (n1)}
 }
